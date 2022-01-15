@@ -1,18 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace SampleProblems
 {
-    class Program
+    class BinaryAdditions
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-
-            Console.WriteLine(PerformBinaryAdditionsOnStrings("1100", "1011"));
-            Console.ReadLine();
-        }
-
         /// <summary>
         /// Does the binary additions on string
         /// e.g a =  "1101" b =  "1010 
@@ -26,22 +21,25 @@ namespace SampleProblems
         {
             //first determine the largest of size
 
-            int legth = a.Length > b.Length ? a.Length : b.Length;
-            if(a.Length > b.Length)
+            int legth = a.Length;
+            if (a.Length > b.Length)
             {
+                legth = a.Length;
                 int extalength = a.Length - b.Length;
                 b = string.Concat(Enumerable.Repeat("0", extalength)) + b;
             }
-            else if(b.Length < a.Length)
+            else if (b.Length < a.Length)
             {
+                legth = b.Length;
                 int extalength = b.Length - a.Length;
                 a = string.Concat(Enumerable.Repeat("0", extalength)) + a;
             }
 
+
             //iterate backwords by taking one charater on each string and perform binary addition
             string carryover = "0";
             string sum = "";
-            for(int index = legth - 1; index >=0; index--)
+            for (int index = legth - 1; index >= 0; index--)
             {
                 if (carryover == "0")
                 {

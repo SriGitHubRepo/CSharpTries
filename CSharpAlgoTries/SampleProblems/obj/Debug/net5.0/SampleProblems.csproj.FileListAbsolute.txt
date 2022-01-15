@@ -1,7 +1,4 @@
-D:\Win10_Works\github\CSharpTries\CSharpAlgoTries\SampleProblems\bin\Debug\net5.0\SampleProblems.exe
 D:\Win10_Works\github\CSharpTries\CSharpAlgoTries\SampleProblems\bin\Debug\net5.0\SampleProblems.deps.json
-D:\Win10_Works\github\CSharpTries\CSharpAlgoTries\SampleProblems\bin\Debug\net5.0\SampleProblems.runtimeconfig.json
-D:\Win10_Works\github\CSharpTries\CSharpAlgoTries\SampleProblems\bin\Debug\net5.0\SampleProblems.runtimeconfig.dev.json
 D:\Win10_Works\github\CSharpTries\CSharpAlgoTries\SampleProblems\bin\Debug\net5.0\SampleProblems.dll
 D:\Win10_Works\github\CSharpTries\CSharpAlgoTries\SampleProblems\bin\Debug\net5.0\ref\SampleProblems.dll
 D:\Win10_Works\github\CSharpTries\CSharpAlgoTries\SampleProblems\bin\Debug\net5.0\SampleProblems.pdb
@@ -13,4 +10,3 @@ D:\Win10_Works\github\CSharpTries\CSharpAlgoTries\SampleProblems\obj\Debug\net5.
 D:\Win10_Works\github\CSharpTries\CSharpAlgoTries\SampleProblems\obj\Debug\net5.0\SampleProblems.dll
 D:\Win10_Works\github\CSharpTries\CSharpAlgoTries\SampleProblems\obj\Debug\net5.0\ref\SampleProblems.dll
 D:\Win10_Works\github\CSharpTries\CSharpAlgoTries\SampleProblems\obj\Debug\net5.0\SampleProblems.pdb
-D:\Win10_Works\github\CSharpTries\CSharpAlgoTries\SampleProblems\obj\Debug\net5.0\SampleProblems.genruntimeconfig.cache
